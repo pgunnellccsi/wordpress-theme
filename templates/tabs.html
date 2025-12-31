@@ -1,0 +1,35 @@
+<!-- <template id="tab-body-template">
+    <div class="tab-body">
+        <img class="tab-image">
+        <div class="tab-body-text">
+            <h3 class="tab-header"></h3>
+            <p class="site-inline-style1"></p>
+            <a class="tab-body-button">
+                <span class="site-inline-style2">Click here to learn more...</p>
+            </a>
+        </div>
+    </div>
+</template>
+
+<div id="tabs-container"></div>
+
+<script>
+    const template = document.getElementById('tab-body-template');
+    const container = document.getElementById('tabs-container');
+
+    const tabsData = [
+        { 
+            image: "<?php echo get_template_directory_uri(); ?>/images/tab1.png",
+            header: "Full Service Call Center",
+            text: "We answer your phones and dispatch the trips."
+        }
+    ];
+
+    tabsData.forEach(data => {
+        const clone = template.content.cloneNode(true);
+        clone.querySelector('.tab-image').src = data.image;
+        clone.querySelector('.tab-header').innerText = data.header;
+        clone.querySelector('.site-inline-style1').innerText = data.text;
+        container.appendChild(clone);
+    });
+</script> -->

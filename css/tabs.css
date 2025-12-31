@@ -1,0 +1,39 @@
+/* .tab-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tab-buttons {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background: #eee;
+    border: none;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.tab-btn:hover {
+    background: #ddd;
+}
+*/
+.tab-btn.active {
+    background: #4285f4;
+    color: white;
+} 
+
+.tab-content .tab {
+    display: none;
+}
+
+.tab-content .tab.active {
+    display: block;
+} 

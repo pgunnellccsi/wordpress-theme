@@ -3,3 +3,40 @@ Theme Name: My Custom Theme
 Author: Payton Gunnell
 Version: 1.0
 */
+
+body {
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucinda Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+}
+
+h3 {
+  color: #666666;
+  font-variant: small-caps;
+  text-transform: none;
+  font-size: 1.9em;
+  font-weight: bold;
+}
+
+.site-inline-style1 {
+  width: 400px;
+  color: #666666;
+  font-size: 1.5em;
+}
+
+.site-inline-style2 {
+  width: 225px;
+  color: #666666;
+}
+
+.tab-btn.active {
+    background: #4285f4;
+    color: white;
+} 
+
+.tab-content .tab {
+    display: none;
+}
+
+.tab-content .tab.active {
+    display: block;
+} 
