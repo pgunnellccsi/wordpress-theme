@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Welcome to My Custom WordPress Site</h1>
-    <p>Update 1</p>
+    <p>Update 2</p>
     <?php
         if ( have_posts() ) :
             while ( have_posts() ) : the_post();
