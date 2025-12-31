@@ -32,9 +32,9 @@
                         <img class="tab-image" src="<?php echo get_template_directory_uri(); ?>/images/tab1.png" alt>
                         <div class="tab-body-text">
                             <h3>Full Service Call Center</h3>
-                            <p class="site-inline-style1">We answer your phones and dispatch the trips.</div>
+                            <div class="site-inline-style1">We answer your phones and dispatch the trips.</div>
                             <a class="tab-body-button">
-                                <p class="site-inline-style2">Click here to learn more...</p>
+                                <div class="site-inline-style2">Click here to learn more...</div>
                             </a>
                         </div>
                     </div>
